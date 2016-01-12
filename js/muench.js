@@ -183,7 +183,7 @@ var Muench = (function (window, document) {
            		'<div id="slide3">' +
             		'<div class="feed_element">' +
             			'<span class="memory_headline emoji">INVESTMENT</span><span class="emoji_text emoji">:dollar:</span>' +
-                		'<div class="memory_body emoji">I\'ll always be grateful for the opportunities you\'ve given me. Many kids leave college with hundreds of thousands of dollars of student loans. Not me...</div>' +
+                		'<div class="memory_body emoji">I\'ll always be grateful for the opportunities you\'ve given me. Many kids leave college with thousands of dollars of student loans. Not me...</div>' +
                 	'</div>' +
            		'</div>' +
            		'<div id="slide4">' +
