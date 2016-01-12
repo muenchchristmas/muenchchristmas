@@ -232,7 +232,7 @@ var Muench = (function (window, document) {
         		'<div id="slide1">' +
             		'<div class="feed_element">' +	            		
             			'<span class="memory_headline emoji">DIPLOMAT</span><span class="emoji_text emoji">:flag_us:</span>' +
-                		'<div class="memory_body emoji">You represent our country as Kerry\'s Little Helper, but you also represent our family, and you\'ve done a great job of that. I\'m extremely proud of you!</div>' +
+                		'<div class="memory_body emoji">To Kerry\'s Little Helper: You represent our country, but you also represent our family, and you\'ve done a great job of that. I\'m extremely proud of you!</div>' +
             		'</div>' +
            		'</div>' +
            		'<div id="slide2">' +
