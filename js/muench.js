@@ -373,11 +373,11 @@ var Muench = (function (window, document) {
 				menu_screen.fadeOut(0);
 				menu_screen.removeClass('animated bounceOutRight');
 			
-				$('#mySwipe').removeClass('animated bounceInRight');
+				$('#mySwipe').removeClass('animated bounceInLeft');
 			
-				masthead.removeClass('animated bounceInRight');
+				masthead.removeClass('animated bounceInLeft');
 			
-				emojis_footer.removeClass('animated bounceInRight');
+				emojis_footer.removeClass('animated bounceInLeft');
 		
 			}, 1000);
 			
