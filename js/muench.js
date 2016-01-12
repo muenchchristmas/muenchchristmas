@@ -189,7 +189,7 @@ var Muench = (function (window, document) {
            		'<div id="slide4">' +
             		'<div class="feed_element">' +
             			'<span class="memory_headline emoji">POSITIVITY</span><span class="emoji_text emoji">:grin:</span>' +
-                		'<div class="memory_body emoji">You\'re slow to anger and you\'re quick to forgive. I can\'t remember the last time you yelled at anyone in our family. Your attitude towards life is inspiring.</div>' +
+                		'<div class="memory_body emoji">You\'re slow to anger and quick to forgive. I can\'t remember the last time you yelled at anyone in our family. Your attitude towards life is truly remarkable.</div>' +
                 	'</div>' +
            		'</div>' +
            		'<div id="slide5">' +
