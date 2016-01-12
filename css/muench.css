@@ -76,7 +76,8 @@ div, span {
 	top: 1.18rem;
 	font-size: 1.5rem;
 	color: rgba(255, 255, 255, 1);
-	font-family: 'Open Sans Light';
+	font-family: 'Open Sans';
+	font-weight: 300;
 }
 
 .stick1 {
@@ -132,7 +133,8 @@ div, span {
 	line-height: 1.9;
 	color: #fff;
 	font-size: 1.25rem;
-	font-family: 'Open Sans Light';
+	font-family: 'Open Sans';
+	font-weight: 300;
 }
 
 #emojis_footer {
@@ -167,20 +169,23 @@ div, span {
 
 .menu_relationship_text {
 	text-transform: uppercase;
-	font-family: 'Open Sans Light';
+	font-family: 'Open Sans';
+	font-weight: 300;
 	color: rgba(255, 255, 255, .5);
 	font-size: 1rem;
 }
 
 .menu_name_text {
 	text-transform: uppercase;
-	font-family: 'Open Sans Light';
+	font-family: 'Open Sans';
+	font-weight: 300;
 	color: #fff;
 	font-size: 1.5rem;
 }
 
 #menu_footer_text {
-	font-family: 'Open Sans Light';
+	font-family: 'Open Sans';
+	font-weight: 300;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: .8rem;
@@ -230,7 +235,8 @@ div, span {
 	width: 100%;
 	text-align: center;
 	color: #fff;
-	font-family: 'Open Sans Light';
+	font-family: 'Open Sans';
+	font-weight: 300;
 	font-size: 2rem;
 }
 
@@ -415,14 +421,4 @@ div, span {
 .bounceInLeft {
 	-webkit-animation-name: bounceInLeft;
 	animation-name: bounceInLeft;
-}
-
-/*******************************************************************/
-/***************************** Fonts *******************************/
-/*******************************************************************/
-
-@font-face {
-	font-family: 'Open Sans Light';
-	font-style: normal;
-	src: url('OpenSans-Light.ttf') format('truetype'); 
 }
