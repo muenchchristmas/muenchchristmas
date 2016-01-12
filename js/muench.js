@@ -379,7 +379,7 @@ var Muench = (function (window, document) {
 			
 				emojis_footer.removeClass('animated bounceInLeft');
 		
-			}, 1000);
+			}, 960);
 			
 		},
 		
@@ -405,7 +405,7 @@ var Muench = (function (window, document) {
 			
 				menu_screen.removeClass('animated bounceInLeft');
 		
-			}, 1000);
+			}, 960);
 		
 		},
 		
