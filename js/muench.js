@@ -250,7 +250,7 @@ var Muench = (function (window, document) {
            		'<div id="slide4">' +
             		'<div class="feed_element">' +
             			'<span class="memory_headline emoji">PRAYER</span><span class="emoji_text emoji">:pray_tone2:</span>' +
-                		'<div class="memory_body">Thanks for your strong faith. We are a product of our environment, so I\'m grateful that I grew up with siblings who respect God and pray for me. Your love is tangible.</div>' +
+                		'<div class="memory_body">Thanks for your strong faith. We are a product of our environment, so I\'m grateful that I have siblings who respect God and pray for me. Your love is tangible.</div>' +
             		'</div>' +
            		'</div>' +
            		'<div id="slide5">' +
