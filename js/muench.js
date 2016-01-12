@@ -255,7 +255,7 @@ var Muench = (function (window, document) {
            		'</div>' +
            		'<div id="slide5">' +
             		'<div class="feed_element">' +
-            			'<span class="memory_headline emoji">BOLDNESS</span><span class="emoji_text emoji">:raising_hand_tone2:</span>' +
+            			'<span class="memory_headline emoji">FEARLESS</span><span class="emoji_text emoji">:raising_hand_tone2:</span>' +
                 		'<div class="memory_body">The level of confidence that you exhibit is incredible. It takes serious cahonas to live abroad for a year as a freshman in high school! I genuinely believe you would make a tremendous POTUS.</div>' +
             		'</div>' +
            		'</div>';
