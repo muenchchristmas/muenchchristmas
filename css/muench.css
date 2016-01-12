@@ -378,7 +378,6 @@ div, span {
 	height: 100%;
 	background-color: #2a3440;
 	z-index: 3;
-	-webkit-transform: translate3d(0,0,0);
 }
 
 #desktop_message_container {
@@ -399,7 +398,6 @@ div, span {
 	color: #dce8f5;
 	font-family: 'Fredoka One';
 	font-size: 3rem;
-	-webkit-transform: translate3d(0,0,0);
 }
 
 #desktop_message_text {
@@ -411,7 +409,6 @@ div, span {
 	font-family: 'Open Sans';
 	font-weight: 300;
 	font-size: 2rem;
-	-webkit-transform: translate3d(0,0,0);
 }
 
 /*******************************************************************/
