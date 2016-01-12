@@ -1,0 +1,257 @@
+/**************************************************************/
+/****************** Generic Body, HTML CSS ********************/
+/**************************************************************/
+
+body, html {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2a3440;
+}
+
+html {
+	font-size: 1em;
+}
+
+div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+#no_overscroll_overall_document_element {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #2a3440;
+}
+
+/**************************************************************/
+/************************ Swipe CSS ***************************/
+/**************************************************************/
+
+.swipe {
+    overflow:hidden;
+    visibility:hidden;
+    position:relative;
+}
+
+.swipe-wrap {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+.swipe-wrap > div {
+	height:100%;
+	width:100%;
+	float:left;
+	position:relative;
+}
+
+/*************************************************************/
+/*********************** Christmas CSS ***********************/
+/*************************************************************/
+
+.feed_element {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background-color: #2a3440;
+}
+
+.heading_container {
+	position: relative;
+	width: 100%;
+	height: 4.4rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .07);
+}
+
+.heading_name {
+	position: absolute;
+	left: 4.2rem;
+	top: 1.18rem;
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Open Sans Light';
+}
+
+.stick1 {
+	position: absolute;
+	top: 1.75rem;
+	left: 1.7rem;
+	width: 20px;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.stick2 {
+	position: absolute;
+	top: 2.25rem;
+	left: 1.7rem;
+	width: 20px;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.stick3 {
+	position: absolute;
+	top: 2.75rem;
+	left: 1.7rem;
+	width: 20px;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.memory_headline {
+	display: inline-block;
+	font-size: 2rem;
+	margin-top: 1.5rem;
+	margin-left: 1.7rem;
+	letter-spacing: .03rem;
+	font-family: 'Fredoka One';
+	color: #dce8f5;
+}
+
+.emoji_text {
+	position:relative;
+	display: inline-block;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	top: -.25rem;
+}
+
+.memory_body {
+	padding-right: 1.2rem;
+	padding-top: .5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 1.7rem;
+	line-height: 1.9;
+	color: #fff;
+	font-size: 1.25rem;
+	font-family: 'Open Sans Light';
+}
+
+#emojis_footer {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	bottom: 1rem;
+	color: #fff;
+}
+
+/****************************************************************/
+/********************** FAMILY MEMBER MENU **********************/
+/****************************************************************/
+
+#menu_screen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left:0px;
+	top:0px;
+	z-index: 2;
+}
+
+.menu_container {
+	width: calc(100% - 3rem);
+	height: 4.5rem;
+	margin-left: 1.5rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid rgba(238, 238, 238, .09);
+}
+
+.menu_relationship_text {
+	text-transform: uppercase;
+	font-family: 'Open Sans Light';
+	color: rgba(255, 255, 255, .5);
+	font-size: 1rem;
+}
+
+.menu_name_text {
+	text-transform: uppercase;
+	font-family: 'Open Sans Light';
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+#menu_footer_text {
+	font-family: 'Open Sans Light';
+	text-transform: uppercase;
+	color: #fff;
+	font-size: .8rem;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 1rem;
+}
+
+/************************************************************/
+/********************* Non-Mobile Message *******************/
+/************************************************************/
+
+#desktop_message_screen {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #2a3440;
+	z-index: 3;
+}
+
+#desktop_message_container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 100%;
+	height: 200px;
+	background-color: #2a3440;
+    -webkit-transform: translateY(-40%);
+    -webkit-transform: translateX(-50%);
+}
+
+#desktop_message_headline {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #dce8f5;
+	font-family: 'Fredoka One';
+	font-size: 3rem;
+}
+
+#desktop_message_text {
+	position:absolute;
+	top: 80px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans Light';
+	font-size: 2rem;
+}
+
+/*******************************************************************/
+/************************* Miscellaneous ***************************/
+/*******************************************************************/
+
+.display_none { 
+    display: none; 
+}
+
+.selected { opacity: 1; }
+
+.unselected { opacity: .16; }
+
+/*******************************************************************/
+/***************************** Fonts *******************************/
+/*******************************************************************/
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	src: url('OpenSans-Light.ttf') format('truetype'); 
+}
