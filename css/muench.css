@@ -378,6 +378,7 @@ div, span {
 	height: 100%;
 	background-color: #2a3440;
 	z-index: 3;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 #desktop_message_container {
