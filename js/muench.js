@@ -75,7 +75,7 @@ var Muench = (function (window, document) {
         	if (hrs >  0) msg = "Hey Night Owl!"; // Really late     
 		if (hrs >  5) msg = "Hey Early Bird!"; // Really early
 		if (hrs >  7) msg = "G'Mornin!"; // Normal wake up
-		if (hrs > 11) msg = "¡Hola!"; // Not quite morning anymore
+		if (hrs > 10) msg = "¡Hola!"; // Not quite morning anymore
 		if (hrs > 12) msg = "G'Afternoon!"; // Afternoon
 		if (hrs > 17) msg = "G'Evening!"; // Evening
 		$('#desktop_message_headline').html(msg);
