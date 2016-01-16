@@ -50,6 +50,7 @@ var Muench = (function (window, document) {
         menu_screen = $('#menu_screen');
         swipe_wrapper = $('#swipe_wrapper');
         
+        this.fn_change_desktop_message();
         this.fn_check_for_non_mobile_browser();
     	this.fn_convert_emoji();
     	this.fn_convert_made_with_love();
@@ -62,9 +63,22 @@ var Muench = (function (window, document) {
     
 	Muench.prototype = {
 
-		// ------------------------------------------------------
-		// Skimmin Core Functions
-		// ------------------------------------------------------
+	// ------------------------------------------------------
+	// Skimmin Core Functions
+	// ------------------------------------------------------
+        
+        // This function checks the time that user viewed the app. If it's 3 a.m., let's call them a night owl!
+        fn_change_desktop_message: function() {
+        	var date = new Date();
+        	var msg = 'Hey There!';
+        	hrs = date.getHours();
+        	if (hrs >  0) msg = "Hello, Night Owl!"; // Really late     
+		if (hrs >  5) msg = "Hello, Early Bird!"; // Really early
+		if (hrs >  7) msg = "G'Mornin!"; // Normal wake up
+		if (hrs > 12) msg = "G'Afternoon!"; // Afternoon
+		if (hrs > 17) msg = "G'Evening!"; // Evening
+		$('#desktop_message_headline').html(msg);
+        },
         
         fn_check_for_non_mobile_browser: function() {
         	
